@@ -5,7 +5,7 @@ const ReportHeading = (categories, currentCategory, handleCategory) => (
       m('div#report-header',
         [
           m('div#report-profile', [
-            m('img.image-jeremy', { 'src': '../../images/image-jeremy.png' }),
+            m("img.image-jeremy", { src: './images/image-jeremy.png' }),
             m('div',
               [
                 m('p.title', 'Report for'),
