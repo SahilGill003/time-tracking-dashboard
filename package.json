@@ -1,0 +1,14 @@
+{
+  "type": "module",
+  "dependencies": {
+    "mithril": "^2.2.2"
+  },
+  "devDependencies": {
+    "@types/mithril": "^2.2.3",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4"
+  },
+  "scripts": {
+    "start": "webpack ./src/index.js --output-path ./bin --watch"
+  }
+}
